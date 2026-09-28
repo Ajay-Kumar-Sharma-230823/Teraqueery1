@@ -433,9 +433,9 @@
   .primary-nav a:hover{color:#754a34;background:#eee8dc}
   .primary-nav a:hover::after{transform:scaleX(1)}
   .primary-nav a:focus-visible{outline:2px solid #a75939;outline-offset:2px}
-  .primary-nav a[href="#final"]{padding-inline:16px;color:#fff5e9;background:#754a34}
-  .primary-nav a[href="#final"]:hover{color:#fff;background:#8b5a3d;transform:translateY(-1px)}
-  .primary-nav a[href="#final"]::after{display:none}
+  .primary-nav a:is([href="#platform"],[href="#education"],[href="#how"],[href="#final"]){padding-inline:16px;color:#fff5e9;background:#754a34}
+  .primary-nav a:is([href="#platform"],[href="#education"],[href="#how"],[href="#final"]):hover{color:#fff;background:#8b5a3d;transform:translateY(-1px)}
+  .primary-nav a:is([href="#platform"],[href="#education"],[href="#how"],[href="#final"])::after{display:none}
 }
 @media(min-width:761px) and (max-width:1120px){
   .site-header{height:68px;padding-inline:24px}
