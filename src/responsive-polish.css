@@ -1,0 +1,4 @@
+.journey-output-grid{grid-template-columns:repeat(5,minmax(0,1fr))}
+@media(min-width:801px){.comparison-row{min-height:64px}.comparison-row>span{font-size:10px}}
+@media(max-width:800px){.journey-output-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:540px){.hero h1{font-size:clamp(40px,10.4vw,48px)}.journey-output-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.comparison-row>span{font-size:9px}}
